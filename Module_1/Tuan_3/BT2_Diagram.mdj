@@ -135,7 +135,7 @@
 											"top": 38,
 											"width": 162.70947265625,
 											"height": 13,
-											"text": "+String name",
+											"text": "-String name",
 											"horizontalAlignment": 0
 										},
 										{
@@ -152,7 +152,7 @@
 											"top": 53,
 											"width": 162.70947265625,
 											"height": 13,
-											"text": "+List nameList",
+											"text": "-List nameList",
 											"horizontalAlignment": 0
 										}
 									],
@@ -434,7 +434,7 @@
 											"top": 510,
 											"width": 103,
 											"height": 13,
-											"text": "+String specialist",
+											"text": "-String specialist",
 											"horizontalAlignment": 0
 										}
 									],
@@ -629,7 +629,7 @@
 											"top": 302,
 											"width": 134,
 											"height": 13,
-											"text": "+String name",
+											"text": "#String name",
 											"horizontalAlignment": 0
 										},
 										{
@@ -646,7 +646,7 @@
 											"top": 317,
 											"width": 134,
 											"height": 13,
-											"text": "+Float yearOfBirth",
+											"text": "#Float yearOfBirth",
 											"horizontalAlignment": 0
 										}
 									],
@@ -860,7 +860,7 @@
 											"top": 510,
 											"width": 89.919921875,
 											"height": 13,
-											"text": "+String subject",
+											"text": "-String subject",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1055,7 +1055,7 @@
 											"top": 510,
 											"width": 102,
 											"height": 13,
-											"text": "+String grade",
+											"text": "-String grade",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2236,6 +2236,7 @@
 								"$ref": "AAAAAAGQJnrQg2lbc+Y="
 							},
 							"name": "String name",
+							"visibility": "private",
 							"type": ""
 						},
 						{
@@ -2245,6 +2246,7 @@
 								"$ref": "AAAAAAGQJnrQg2lbc+Y="
 							},
 							"name": "List nameList",
+							"visibility": "private",
 							"type": ""
 						}
 					],
@@ -2350,6 +2352,7 @@
 								"$ref": "AAAAAAGQJnzvfWmVH+A="
 							},
 							"name": "String specialist",
+							"visibility": "private",
 							"type": ""
 						}
 					]
@@ -2400,6 +2403,7 @@
 								"$ref": "AAAAAAGQJoMvNWnX2L8="
 							},
 							"name": "String name",
+							"visibility": "protected",
 							"type": ""
 						},
 						{
@@ -2408,7 +2412,9 @@
 							"_parent": {
 								"$ref": "AAAAAAGQJoMvNWnX2L8="
 							},
-							"name": "Float yearOfBirth"
+							"name": "Float yearOfBirth",
+							"visibility": "protected",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -2468,6 +2474,7 @@
 								"$ref": "AAAAAAGQJoWaRmoVdI8="
 							},
 							"name": "String subject",
+							"visibility": "private",
 							"type": ""
 						}
 					]
@@ -2517,7 +2524,9 @@
 							"_parent": {
 								"$ref": "AAAAAAGQJoZ/NmpWf9g="
 							},
-							"name": "String grade"
+							"name": "String grade",
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				}
